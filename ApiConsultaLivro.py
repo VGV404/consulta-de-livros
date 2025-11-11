@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi import Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import psycopg2
-from psycop2.extras import RealDictCursor
+from psycopg2.extras import RealDictCursor
 
 DATABASE_URL = "postgresql://dbmarcelo_user:l0Dzn6rZUIvgHw5787U2ZYvKCQ35Zcih@dpg-d496tdchg0os738lgtj0-a/dbmarcelo"
 
